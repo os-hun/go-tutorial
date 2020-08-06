@@ -6,6 +6,7 @@ import (
 	"./packages"
 	"./imports"
 	"./functions"
+	"./swap"
 )
 
 func main() {
@@ -24,4 +25,7 @@ func main() {
 	fmt.Println(math.Pi)
 	// functions
 	fmt.Println(functions.Add(42, 13))
+	// swap
+	a, b := swap.Swap("hello", "world")
+	fmt.Println(a, b)
 }
