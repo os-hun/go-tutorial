@@ -6,6 +6,7 @@ import (
 	"./imports"
 	"./functions"
 	"./swap"
+	"./named-results"
 )
 
 func main() {
@@ -24,4 +25,6 @@ func main() {
 	// swap
 	a, b := swap.Swap("hello", "world")
 	fmt.Println(a, b)
+	// named return values
+	fmt.Println(named_results.Split(17))
 }
