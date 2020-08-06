@@ -8,6 +8,7 @@ import (
 	"./swap"
 	"./named-results"
 	"./variables"
+	"./basic-types"
 )
 
 func main() {
@@ -34,4 +35,6 @@ func main() {
 	variables.VariablesWithInitializers()
 	// Short variable declarations
 	variables.ShortVariableDeclarations()
+	// Basic types
+	basic_types.Basic_types()
 }
