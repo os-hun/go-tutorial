@@ -4,15 +4,8 @@ import (
 	"time"
 	"math/rand"
 	"math"
+	"./functions"
 )
-
-/*
-	functions
-	@see https://tour.golang.org/basics/4
-*/
-func add(x int, y int) int {
-	return x + y
-}
 
 func main() {
 	// print
@@ -35,5 +28,5 @@ func main() {
 	*/
 	fmt.Println(math.Pi)
 	// functions
-	fmt.Println(add(42, 13))
+	fmt.Println(functions.Add(42, 13))
 }
