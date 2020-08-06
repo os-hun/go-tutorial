@@ -2,7 +2,6 @@ package main
 import (
 	"fmt"
 	"time"
-	"math"
 	"./packages"
 	"./imports"
 	"./functions"
@@ -18,11 +17,8 @@ func main() {
 	fmt.Println("My favorite number is", packages.Pack())
 	// imports
 	fmt.Println("Now you have problems.\n", imports.Import())
-	/*
-		exported names
-		@see https://tour.golang.org/basics/3
-	*/
-	fmt.Println(math.Pi)
+	// exported names
+	fmt.Println(imports.Math_pi())
 	// functions
 	fmt.Println(functions.Add(42, 13))
 	// swap
