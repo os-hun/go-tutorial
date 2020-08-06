@@ -30,4 +30,8 @@ func main() {
 	fmt.Println(named_results.Split(17))
 	// variables
 	variables.Variables()
+	// variables with initializers
+	variables.VariablesWithInitializers()
+	// Short variable declarations
+	variables.ShortVariableDeclarations()
 }
