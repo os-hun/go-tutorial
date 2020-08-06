@@ -7,6 +7,7 @@ import (
 	"./functions"
 	"./swap"
 	"./named-results"
+	"./variables"
 )
 
 func main() {
@@ -27,4 +28,6 @@ func main() {
 	fmt.Println(a, b)
 	// named return values
 	fmt.Println(named_results.Split(17))
+	// variables
+	variables.Variables()
 }
